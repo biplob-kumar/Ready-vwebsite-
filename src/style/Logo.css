@@ -1,0 +1,32 @@
+
+
+  /*  logo section  */
+.logo-part{
+  background-color: rgb(248, 230, 230);
+  padding: 100px 0;
+}
+  .logo-wraper{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+  }
+ .logo-img img{
+    width: 130px;
+
+ }
+
+
+
+ /*  mediya quarry  */
+ @media only screen and (max-width: 480px) {
+    .logo-wraper{
+        text-align: center;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-gap: 1rem;
+      }
+      .logo-img img{
+        max-width: 100%;
+        
+     }
+  }

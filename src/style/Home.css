@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 1rem;
+    height: 100%;
+}
+
+/* header left css start  */
+.header-left-content{
+    align-self: center;
+}
+.header-left-content h1{
+    color: whitesmoke;
+    font-size: 4rem;
+   
+}
+
+.header{
+
+    background-image:linear-gradient(to right, rgba(21, 21, 22, 0.7), rgba(21, 21, 22, 0.7)) ,url('../../public/img/poster-2.png')  ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+
+
+
+/* hero-right css start */
+.hero-right{
+    color: whitesmoke;
+    align-self: center;
+    padding: 10px 20px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(7, 7, 7);
+    border-radius: 10px;
+}
+.hero-right h6{
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 20px;
+}
+form input{
+    border-radius: 10px;
+    border: none;
+    padding: 15px 95px ;
+    display: block;
+    margin-top: 1rem;
+    margin: 1rem;
+}
+form p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+form h5{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.btn-1{
+    padding: 10px 20px ;
+    background-color:rgb(17, 201, 161);
+    border-radius: 10px;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    display: inline-block;
+    font-weight: bold;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+
+/* mobile css start */
+@media only screen and (max-width: 780px) {
+
+  .header-wraper{
+    grid-template-columns: 1fr ;
+}
+
+.hero{
+    width: 100%;
+    height: 100%;
+}
+.header-left-content{
+    align-self: center;
+}
+.header-left-content h1{
+    color: whitesmoke;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+
+
+.hero-right{
+    width: 350px;
+    height: 100%;
+}
+.hero-right h6{
+    font-size: .5rem;
+
+    text-align: center;
+    margin: 20px;
+}
+form input{
+    border-radius: 10px;
+    border: none;
+    padding: 15px 40px ;
+    display: block;
+    margin-top: 0.5rem;
+    margin: 0.3rem;
+}
+form p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+form h5{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+  }
+
+

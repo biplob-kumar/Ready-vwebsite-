@@ -1,0 +1,35 @@
+.navbar {
+    background: red;
+}
+
+a.nav-link.active {
+    color: white;
+}
+
+a.nav-link {
+    color: black;
+}
+
+.logo {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+a.btn {
+    background: whitesmoke;
+    padding: 10px 20px;
+    color: #0c0c0c;
+}
+a.btn:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+
+
+a.nav-link.active {
+    color: #e4ede6;
+}
+
+

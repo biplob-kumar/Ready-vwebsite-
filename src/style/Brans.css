@@ -1,0 +1,38 @@
+
+/*  brand css  */
+.brnad-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 1rem;
+}
+.brand-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+.brand-left{
+align-self: center;
+}
+.brand-left h1{
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.box-b h4{
+    font-weight: bold;
+}
+.branf-right img{
+    width: 100%;
+}
+
+
+
+/*  mmobilecss start */
+@media only screen and (max-width: 600px) {
+  
+    .brnad-wraper{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-gap: 1rem;
+    }
+
+  }

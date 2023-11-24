@@ -1,0 +1,46 @@
+.curier-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    height: 100%;
+}
+.curier-left{
+    align-self: center;
+}
+.curier-left h2{
+    font-size: 3rem;
+    color: black;
+    font-weight: bold;
+}
+.curier{
+
+    background: url('../../public//img/banner.jpg')  ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.kurier{
+   background-color: whitesmoke !important;
+}
+
+
+/*  mediuya quarry  */
+
+@media only screen and (max-width: 600px) {
+    .curier-wraper{
+        grid-template-columns: 1fr ;
+    }
+
+    .curier{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .curier-left h2{
+        font-size: 1.5rem;
+      
+       
+    }
+  }

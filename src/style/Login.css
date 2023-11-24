@@ -1,0 +1,57 @@
+.login{
+background-color: rgb(218, 200, 200);
+padding: 80px 0;
+}
+.login-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    height: 100%;
+}
+
+.login-left{
+    text-align: center;
+    background-color: antiquewhite;
+    align-self: center;
+
+}
+.login-left h1{
+    margin-bottom: 1rem;
+}
+.box input{
+    padding: 10px 20px ;
+    border-radius: 10px;
+}
+
+.login-btn{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(17, 201, 161);
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+
+
+}
+.box p {
+    padding: 10px ;
+}
+.box p span{
+    color: rgb(17, 201, 161);
+}
+
+/* login  right  */
+.login-right{
+    background-color:whitesmoke;
+}
+
+
+
+/*  */
+
+
+.singin-btn:hover{
+    background-color: black !important;
+}

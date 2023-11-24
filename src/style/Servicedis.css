@@ -1,0 +1,36 @@
+
+/* //service dis css start// */
+.service-d-header{
+    padding: 100px 0;
+}
+.service-discustion{
+    background-color: black;
+}
+.service-d-wraper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+}
+
+.service-title{
+    text-align: center;
+}
+.service-text{
+    text-align: center;
+}
+.servioce-disimage img{
+margin-left: 10rem;
+}
+
+
+ /*  mediya quarry  */
+ @media only screen and (max-width: 480px) {
+ 
+    .service-d-wraper{
+   
+        grid-template-columns: 1fr ;
+    }
+ 
+ 
+  }
+

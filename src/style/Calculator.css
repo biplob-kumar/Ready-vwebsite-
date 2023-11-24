@@ -1,0 +1,49 @@
+
+
+.calculator{
+    background-color: black;
+}
+
+.input-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+}
+.input-box input {
+    padding: 10px 30px;
+}
+.pra{
+    text-align: center;
+    font-weight: bold;
+  
+}
+.cal-f span{
+    text-align: center;
+    color: rgb(17, 201, 161);
+    font-weight: bold;
+}
+
+/* mobile css start */
+@media only screen and (max-width: 780px) {
+
+
+    .input-wraper{
+        display: grid;
+        grid-template-columns:  1fr;
+      
+    }
+    .input-box input {
+        padding: 10px 20px;
+    }
+    .pra{
+        text-align: center;
+        font-weight: bold;
+      
+    }
+    .cal-f span{
+        text-align: center;
+        color:rgb(17, 201, 161);
+        font-weight: bold;
+    }
+    
+  }

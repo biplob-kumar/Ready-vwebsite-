@@ -1,0 +1,52 @@
+.footer{
+background-color: black;
+}
+
+
+.footer-logo a {
+    text-decoration: none;
+    color: rgb(17, 201, 161);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.footer-logo p{
+    margin-bottom: 1rem;
+}
+.footer-wraper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+
+.importent-link ul li a {
+    color: rgb(243, 235, 235);
+    margin-bottom: 1rem;
+    display: inline-block;
+    margin-left: -1.6rem;
+    text-decoration: none;
+}
+.icons a i{
+    color:whitesmoke;
+    margin-bottom: 1rem;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+hr{
+    color: whitesmoke;
+}
+
+/* mobile css start */
+@media only screen and (max-width: 600px) {
+    .footer-wraper{
+     
+        grid-template-columns:1fr;
+    
+    }
+    .res{
+        text-align: left;
+    }
+    
+  }
+  

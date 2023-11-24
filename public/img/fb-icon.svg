@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 6</title>
+    <defs>
+        <polygon id="path-1" points="0 0 31.99995 0 31.99995 31.9999 0 31.9999"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Blocks/Web/Marketing/footer/Desktop" transform="translate(-1065.000000, -129.000000)">
+            <g id="Group-6" transform="translate(1065.000000, 129.000000)">
+                <g id="Group-3">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M15.99995,-0.0001 C24.83645,-0.0001 31.99995,7.1634 31.99995,15.9999 C31.99995,24.8364 24.83645,31.9999 15.99995,31.9999 C7.16345,31.9999 -5e-05,24.8364 -5e-05,15.9999 C-5e-05,7.1634 7.16345,-0.0001 15.99995,-0.0001" id="Fill-1" fill="#C0C0C0" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M19.4804,16.6288 L16.9749,16.6288 L16.9749,25.8073 L13.1794,25.8073 L13.1794,16.6288 L11.3739,16.6288 L11.3739,13.4033 L13.1794,13.4033 L13.1794,11.3158 C13.1794,9.8233 13.8884,7.4858 17.0089,7.4858 L19.8204,7.4973 L19.8204,10.6288 L17.7804,10.6288 C17.4459,10.6288 16.9754,10.7958 16.9754,11.5078 L16.9754,13.4063 L19.8119,13.4063 L19.4804,16.6288 Z" id="Fill-4" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+
+.service-wraper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+.service-title{
+    color: whitesmoke;
+ margin-top: 1rem;
+ font-weight: bold;
+}
+.service-text{
+    color: whitesmoke;
+margin-bottom: 1rem;
+line-height: 1.5rem;
+}
+
+
+ /*  mediya quarry  */
+ @media only screen and (max-width: 480px) {
+ 
+.service-wraper{
+    grid-template-columns: 1fr;
+}
+.service-title{
+    text-align: center;
+}
+.service-text{
+    text-align: center;
+}
+.service-img img{
+text-align: center;
+width: 100%;
+}
+  }
